@@ -34,7 +34,7 @@ function Task({ task }) {
               }
             });
           }}
-          className="border rounded px-2 py-1" // Add Tailwind styles for input
+          className="border rounded px-2 py-1"
         />
         <button
           onClick={() => setIsEditing(false)}
@@ -72,7 +72,7 @@ function Task({ task }) {
             }
           });
         }}
-        className="mr-2" // Add margin to the right
+        className="mr-2"
       />
       {taskContent}
       <button
